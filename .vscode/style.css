@@ -1,0 +1,81 @@
+* {
+  padding: 0px;
+  margin: 1px;
+  /*border: 1px solid red; */
+  box-sizing: border-box;
+}
+body {
+  background-color: #030311;
+  color: rgb(218, 212, 214);
+  /*display: grid;
+  place-items: center; */
+  height: 100vh;
+}
+header {
+  padding: 68px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#form-habits {
+  display: flex;
+  padding: 0 48px 48px;
+}
+
+.habits {
+  margin-top: 48px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.habit {
+  width: 58px;
+  height: 58px;
+  font-size: 58px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.days {
+  display: flex;
+  margin-left: 32px;
+  gap: 24px;
+}
+.day {
+  display: flex;
+  flex-direction: column;
+}
+.day div {
+  margin-bottom: 6px;
+  font-size: 20px;
+  line-height: 125%;
+  color: white;
+  text-align: center;
+}
+button {
+  padding: 16px 24px;
+  border-radius: 8px;
+  border: 1px solid rgb(115, 51, 128);
+  background-color: transparent;
+  color: white;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  font-family: "inter";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 125%;
+}
+input {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 64px;
+  height: 64px;
+  border: solid 2px rgb(115, 51, 128);
+  border-radius: 8px;
+  margin: 12px;
+}
+input:checked {
+  background-color: blueviolet;
+  border: solid 2px white;
+}
